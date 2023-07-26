@@ -1,0 +1,133 @@
+/*
+Theme name: seikkailu
+Theme author: Liisa Kotilainen
+*/
+
+#site-container {
+    max-width: 1200px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('IMG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#site-header {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#site-header h1 {
+    color: #ffffff;
+    font-size: 7em;
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#top-navi {
+    margin: 2px;
+}
+#top-navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Arial', Arial, sans-serif;
+}
+#top-navi ul li {
+    position: relative;
+}
+#top-navi ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+#top-navi .sub-menu {
+    position: center;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    padding-top: 2px;
+}
+#top-navi ul li:hover .sub-menu {
+    display: block;
+}
+#top-navi .sub-menu li {
+    background-color: rgba(127, 255, 212, 0.171);
+    display: block;
+    width: 100%;
+}
+
+#content {
+    display: flex;
+}
+#content main {
+    width: 70%;
+    padding: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+#content main article {
+    border-bottom: 1px dashed rgba(127, 255, 212, 0.171);
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+#content main a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#content main h2 {
+    margin-bottom: 0;
+}
+
+#content main .date-category, #content #news-box .date {
+    color: #ffffff;
+    margin-top: 0;
+}
+#content #news-box {
+    display: flex;
+}
+#content #news-box .news {
+    width: 33.33%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#sidebar {
+    width: 30%;
+    padding: 10px;
+}
+#content #sidebar {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#content #sidebar a{
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#content #sidebar h1, #content #sidebar h2 {
+    background-color: rgba(127, 255, 212, 0.171);
+    font-size: 1.5em;
+    padding: 10px;
+}
+#site-footer{
+    position: bottom;
+    text-align: center;
+    font-family: 'Arial', Arial, sans-serif;
+    font-size: 0.8em;
+}
