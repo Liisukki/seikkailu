@@ -29,6 +29,7 @@ Theme author: Liisa Kotilainen
 
 #top-navi {
     margin: 2px;
+    background-color: (0, 0, 0, 0.2);
 }
 #top-navi ul {
     list-style: none;
@@ -101,7 +102,7 @@ Theme author: Liisa Kotilainen
 #content #news-box .news {
     width: 33.33%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #sidebar {
     width: 30%;
