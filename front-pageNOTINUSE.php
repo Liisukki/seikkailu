@@ -7,11 +7,13 @@ get_header(); ?>
         <div id="news-box">
             <?php
             $the_query = new WP_Query(
-                array(
-                    'category_name' => 'uutiset',
-                    'orderby' => 'date',
-                    'order' => 'desc',
-                    'post_per_page' => '3'
+                (
+                    array(
+                        'category_name' => 'fiilikset',
+                        'orderby' => 'date',
+                        'order' => 'desc',
+                        'post_per_page' => '3'
+                    )
                 )
             );
             if ($the_query->have_posts()):
@@ -30,8 +32,8 @@ get_header(); ?>
                 endwhile;
                 wp_reset_postdata();
             else: ?>
-            <p>Ei kirjoituksia.</p>
-            <?php
+                <p>Ei kirjoituksia.</p>
+                <?php
             endif; ?>
         </div>
     </main>

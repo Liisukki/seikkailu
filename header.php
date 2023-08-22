@@ -11,7 +11,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class() ?>>
     <div id="site-container">
         <nav id="top-navi">
             <?php wp_nav_menu(['theme_location' => 'primary']); ?>

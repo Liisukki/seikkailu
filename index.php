@@ -22,10 +22,10 @@ get_header(); ?>
                 <?php
 
             endwhile;
-            
+
         else: ?>
-        <p>Ei kirjoituksia.</p>
-        <?php
+            <p>Ei kirjoituksia.</p>
+            <?php
         endif; ?>
     </main>
     <?php

@@ -22,9 +22,7 @@ get_header(); ?>
             endwhile;
 
         endif; ?>
-</main>
-        <?php
-        get_sidebar(); ?>
+    </main>
 </div> <!-- content -->
 <?php
 get_footer();
